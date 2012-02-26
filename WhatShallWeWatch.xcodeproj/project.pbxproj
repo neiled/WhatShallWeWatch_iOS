@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF76814D14FA7AC100D9265E /* WSWWWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF76814C14FA7AC100D9265E /* WSWWWrapper.m */; };
+		AF9E069514E9B115000D5DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069414E9B115000D5DB5 /* UIKit.framework */; };
+		AF9E069714E9B115000D5DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069614E9B115000D5DB5 /* Foundation.framework */; };
+		AF9E069914E9B115000D5DB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069814E9B115000D5DB5 /* CoreGraphics.framework */; };
+		AF9E069F14E9B115000D5DB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF9E069D14E9B115000D5DB5 /* InfoPlist.strings */; };
+		AF9E06A114E9B115000D5DB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9E06A014E9B115000D5DB5 /* main.m */; };
+		AF9E06A514E9B115000D5DB5 /* WSWWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9E06A414E9B115000D5DB5 /* WSWWAppDelegate.m */; };
+		AF9E06A814E9B115000D5DB5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9E06A614E9B115000D5DB5 /* MainStoryboard.storyboard */; };
+		AF9E06AB14E9B115000D5DB5 /* WSWWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9E06AA14E9B115000D5DB5 /* WSWWViewController.m */; };
+		AF9E06B314E9B115000D5DB5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06B214E9B115000D5DB5 /* SenTestingKit.framework */; };
+		AF9E06B414E9B115000D5DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069414E9B115000D5DB5 /* UIKit.framework */; };
+		AF9E06B514E9B115000D5DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069614E9B115000D5DB5 /* Foundation.framework */; };
+		AF9E06BD14E9B115000D5DB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF9E06BB14E9B115000D5DB5 /* InfoPlist.strings */; };
+		AF9E06C014E9B115000D5DB5 /* WhatShallWeWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9E06BF14E9B115000D5DB5 /* WhatShallWeWatchTests.m */; };
+		AF9E06D014E9B6D8000D5DB5 /* AddFilmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9E06CF14E9B6D8000D5DB5 /* AddFilmViewController.m */; };
+		AF9E06E514E9C0ED000D5DB5 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06DC14E9C030000D5DB5 /* libRestKit.a */; };
+		AF9E06E714E9C134000D5DB5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06E614E9C134000D5DB5 /* CFNetwork.framework */; };
+		AF9E06E914E9C13A000D5DB5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06E814E9C13A000D5DB5 /* CoreData.framework */; };
+		AF9E06EB14E9C145000D5DB5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06EA14E9C145000D5DB5 /* MobileCoreServices.framework */; };
+		AF9E06ED14E9C14D000D5DB5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06EC14E9C14D000D5DB5 /* Security.framework */; };
+		AF9E06EF14E9C154000D5DB5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06EE14E9C154000D5DB5 /* SystemConfiguration.framework */; };
+		AF9E06F114E9C161000D5DB5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06F014E9C161000D5DB5 /* libxml2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF9E06B614E9B115000D5DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF9E068714E9B115000D5DB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9E068F14E9B115000D5DB5;
+			remoteInfo = WhatShallWeWatch;
+		};
+		AF9E06DB14E9C030000D5DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		AF9E06DD14E9C030000D5DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		AF9E06DF14E9C030000D5DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		AF9E06E114E9C030000D5DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		AF9E06E314E9C0C0000D5DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF76814B14FA7AC100D9265E /* WSWWWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSWWWrapper.h; sourceTree = "<group>"; };
+		AF76814C14FA7AC100D9265E /* WSWWWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSWWWrapper.m; sourceTree = "<group>"; };
+		AF9E069014E9B115000D5DB5 /* WhatShallWeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatShallWeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9E069414E9B115000D5DB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF9E069614E9B115000D5DB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF9E069814E9B115000D5DB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF9E069C14E9B115000D5DB5 /* WhatShallWeWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatShallWeWatch-Info.plist"; sourceTree = "<group>"; };
+		AF9E069E14E9B115000D5DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF9E06A014E9B115000D5DB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF9E06A214E9B115000D5DB5 /* WhatShallWeWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhatShallWeWatch-Prefix.pch"; sourceTree = "<group>"; };
+		AF9E06A314E9B115000D5DB5 /* WSWWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSWWAppDelegate.h; sourceTree = "<group>"; };
+		AF9E06A414E9B115000D5DB5 /* WSWWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSWWAppDelegate.m; sourceTree = "<group>"; };
+		AF9E06A714E9B115000D5DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AF9E06A914E9B115000D5DB5 /* WSWWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSWWViewController.h; sourceTree = "<group>"; };
+		AF9E06AA14E9B115000D5DB5 /* WSWWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSWWViewController.m; sourceTree = "<group>"; };
+		AF9E06B114E9B115000D5DB5 /* WhatShallWeWatchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatShallWeWatchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9E06B214E9B115000D5DB5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF9E06BA14E9B115000D5DB5 /* WhatShallWeWatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatShallWeWatchTests-Info.plist"; sourceTree = "<group>"; };
+		AF9E06BC14E9B115000D5DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF9E06BE14E9B115000D5DB5 /* WhatShallWeWatchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatShallWeWatchTests.h; sourceTree = "<group>"; };
+		AF9E06BF14E9B115000D5DB5 /* WhatShallWeWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatShallWeWatchTests.m; sourceTree = "<group>"; };
+		AF9E06CE14E9B6D8000D5DB5 /* AddFilmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFilmViewController.h; sourceTree = "<group>"; };
+		AF9E06CF14E9B6D8000D5DB5 /* AddFilmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFilmViewController.m; sourceTree = "<group>"; };
+		AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		AF9E06E614E9C134000D5DB5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AF9E06E814E9C13A000D5DB5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AF9E06EA14E9C145000D5DB5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AF9E06EC14E9C14D000D5DB5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AF9E06EE14E9C154000D5DB5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AF9E06F014E9C161000D5DB5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF9E068D14E9B115000D5DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E06F114E9C161000D5DB5 /* libxml2.dylib in Frameworks */,
+				AF9E06EF14E9C154000D5DB5 /* SystemConfiguration.framework in Frameworks */,
+				AF9E06ED14E9C14D000D5DB5 /* Security.framework in Frameworks */,
+				AF9E06EB14E9C145000D5DB5 /* MobileCoreServices.framework in Frameworks */,
+				AF9E06E914E9C13A000D5DB5 /* CoreData.framework in Frameworks */,
+				AF9E06E714E9C134000D5DB5 /* CFNetwork.framework in Frameworks */,
+				AF9E06E514E9C0ED000D5DB5 /* libRestKit.a in Frameworks */,
+				AF9E069514E9B115000D5DB5 /* UIKit.framework in Frameworks */,
+				AF9E069714E9B115000D5DB5 /* Foundation.framework in Frameworks */,
+				AF9E069914E9B115000D5DB5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9E06AD14E9B115000D5DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E06B314E9B115000D5DB5 /* SenTestingKit.framework in Frameworks */,
+				AF9E06B414E9B115000D5DB5 /* UIKit.framework in Frameworks */,
+				AF9E06B514E9B115000D5DB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF9E068514E9B115000D5DB5 = {
+			isa = PBXGroup;
+			children = (
+				AF9E06F014E9C161000D5DB5 /* libxml2.dylib */,
+				AF9E06EE14E9C154000D5DB5 /* SystemConfiguration.framework */,
+				AF9E06EC14E9C14D000D5DB5 /* Security.framework */,
+				AF9E06EA14E9C145000D5DB5 /* MobileCoreServices.framework */,
+				AF9E06E814E9C13A000D5DB5 /* CoreData.framework */,
+				AF9E06E614E9C134000D5DB5 /* CFNetwork.framework */,
+				AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */,
+				AF9E069A14E9B115000D5DB5 /* WhatShallWeWatch */,
+				AF9E06B814E9B115000D5DB5 /* WhatShallWeWatchTests */,
+				AF9E069314E9B115000D5DB5 /* Frameworks */,
+				AF9E069114E9B115000D5DB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF9E069114E9B115000D5DB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E069014E9B115000D5DB5 /* WhatShallWeWatch.app */,
+				AF9E06B114E9B115000D5DB5 /* WhatShallWeWatchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF9E069314E9B115000D5DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E069414E9B115000D5DB5 /* UIKit.framework */,
+				AF9E069614E9B115000D5DB5 /* Foundation.framework */,
+				AF9E069814E9B115000D5DB5 /* CoreGraphics.framework */,
+				AF9E06B214E9B115000D5DB5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF9E069A14E9B115000D5DB5 /* WhatShallWeWatch */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E06A314E9B115000D5DB5 /* WSWWAppDelegate.h */,
+				AF9E06A414E9B115000D5DB5 /* WSWWAppDelegate.m */,
+				AF9E06A614E9B115000D5DB5 /* MainStoryboard.storyboard */,
+				AF9E06A914E9B115000D5DB5 /* WSWWViewController.h */,
+				AF9E06AA14E9B115000D5DB5 /* WSWWViewController.m */,
+				AF9E069B14E9B115000D5DB5 /* Supporting Files */,
+				AF9E06CE14E9B6D8000D5DB5 /* AddFilmViewController.h */,
+				AF9E06CF14E9B6D8000D5DB5 /* AddFilmViewController.m */,
+				AF76814B14FA7AC100D9265E /* WSWWWrapper.h */,
+				AF76814C14FA7AC100D9265E /* WSWWWrapper.m */,
+			);
+			path = WhatShallWeWatch;
+			sourceTree = "<group>";
+		};
+		AF9E069B14E9B115000D5DB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E069C14E9B115000D5DB5 /* WhatShallWeWatch-Info.plist */,
+				AF9E069D14E9B115000D5DB5 /* InfoPlist.strings */,
+				AF9E06A014E9B115000D5DB5 /* main.m */,
+				AF9E06A214E9B115000D5DB5 /* WhatShallWeWatch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF9E06B814E9B115000D5DB5 /* WhatShallWeWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E06BE14E9B115000D5DB5 /* WhatShallWeWatchTests.h */,
+				AF9E06BF14E9B115000D5DB5 /* WhatShallWeWatchTests.m */,
+				AF9E06B914E9B115000D5DB5 /* Supporting Files */,
+			);
+			path = WhatShallWeWatchTests;
+			sourceTree = "<group>";
+		};
+		AF9E06B914E9B115000D5DB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E06BA14E9B115000D5DB5 /* WhatShallWeWatchTests-Info.plist */,
+				AF9E06BB14E9B115000D5DB5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF9E06D214E9C030000D5DB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E06DC14E9C030000D5DB5 /* libRestKit.a */,
+				AF9E06DE14E9C030000D5DB5 /* RestKitTests.octest */,
+				AF9E06E014E9C030000D5DB5 /* RestKit.framework */,
+				AF9E06E214E9C030000D5DB5 /* RestKitFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF9E068F14E9B115000D5DB5 /* WhatShallWeWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9E06C314E9B115000D5DB5 /* Build configuration list for PBXNativeTarget "WhatShallWeWatch" */;
+			buildPhases = (
+				AF9E068C14E9B115000D5DB5 /* Sources */,
+				AF9E068D14E9B115000D5DB5 /* Frameworks */,
+				AF9E068E14E9B115000D5DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9E06E414E9C0C0000D5DB5 /* PBXTargetDependency */,
+			);
+			name = WhatShallWeWatch;
+			productName = WhatShallWeWatch;
+			productReference = AF9E069014E9B115000D5DB5 /* WhatShallWeWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF9E06B014E9B115000D5DB5 /* WhatShallWeWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9E06C614E9B116000D5DB5 /* Build configuration list for PBXNativeTarget "WhatShallWeWatchTests" */;
+			buildPhases = (
+				AF9E06AC14E9B115000D5DB5 /* Sources */,
+				AF9E06AD14E9B115000D5DB5 /* Frameworks */,
+				AF9E06AE14E9B115000D5DB5 /* Resources */,
+				AF9E06AF14E9B115000D5DB5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9E06B714E9B115000D5DB5 /* PBXTargetDependency */,
+			);
+			name = WhatShallWeWatchTests;
+			productName = WhatShallWeWatchTests;
+			productReference = AF9E06B114E9B115000D5DB5 /* WhatShallWeWatchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF9E068714E9B115000D5DB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AF9E068A14E9B115000D5DB5 /* Build configuration list for PBXProject "WhatShallWeWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF9E068514E9B115000D5DB5;
+			productRefGroup = AF9E069114E9B115000D5DB5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AF9E06D214E9C030000D5DB5 /* Products */;
+					ProjectRef = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AF9E068F14E9B115000D5DB5 /* WhatShallWeWatch */,
+				AF9E06B014E9B115000D5DB5 /* WhatShallWeWatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AF9E06DC14E9C030000D5DB5 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = AF9E06DB14E9C030000D5DB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF9E06DE14E9C030000D5DB5 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = AF9E06DD14E9C030000D5DB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF9E06E014E9C030000D5DB5 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = AF9E06DF14E9C030000D5DB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AF9E06E214E9C030000D5DB5 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = AF9E06E114E9C030000D5DB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF9E068E14E9B115000D5DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E069F14E9B115000D5DB5 /* InfoPlist.strings in Resources */,
+				AF9E06A814E9B115000D5DB5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9E06AE14E9B115000D5DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E06BD14E9B115000D5DB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF9E06AF14E9B115000D5DB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF9E068C14E9B115000D5DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E06A114E9B115000D5DB5 /* main.m in Sources */,
+				AF9E06A514E9B115000D5DB5 /* WSWWAppDelegate.m in Sources */,
+				AF9E06AB14E9B115000D5DB5 /* WSWWViewController.m in Sources */,
+				AF9E06D014E9B6D8000D5DB5 /* AddFilmViewController.m in Sources */,
+				AF76814D14FA7AC100D9265E /* WSWWWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9E06AC14E9B115000D5DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E06C014E9B115000D5DB5 /* WhatShallWeWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF9E06B714E9B115000D5DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF9E068F14E9B115000D5DB5 /* WhatShallWeWatch */;
+			targetProxy = AF9E06B614E9B115000D5DB5 /* PBXContainerItemProxy */;
+		};
+		AF9E06E414E9C0C0000D5DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = AF9E06E314E9C0C0000D5DB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF9E069D14E9B115000D5DB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF9E069E14E9B115000D5DB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF9E06A614E9B115000D5DB5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF9E06A714E9B115000D5DB5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AF9E06BB14E9B115000D5DB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF9E06BC14E9B115000D5DB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF9E06C114E9B115000D5DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF9E06C214E9B115000D5DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF9E06C414E9B115000D5DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatShallWeWatch/WhatShallWeWatch-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build\"";
+				INFOPLIST_FILE = "WhatShallWeWatch/WhatShallWeWatch-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF9E06C514E9B115000D5DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatShallWeWatch/WhatShallWeWatch-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build\"";
+				INFOPLIST_FILE = "WhatShallWeWatch/WhatShallWeWatch-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AF9E06C714E9B116000D5DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatShallWeWatch.app/WhatShallWeWatch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatShallWeWatch/WhatShallWeWatch-Prefix.pch";
+				INFOPLIST_FILE = "WhatShallWeWatchTests/WhatShallWeWatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AF9E06C814E9B116000D5DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatShallWeWatch.app/WhatShallWeWatch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatShallWeWatch/WhatShallWeWatch-Prefix.pch";
+				INFOPLIST_FILE = "WhatShallWeWatchTests/WhatShallWeWatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF9E068A14E9B115000D5DB5 /* Build configuration list for PBXProject "WhatShallWeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9E06C114E9B115000D5DB5 /* Debug */,
+				AF9E06C214E9B115000D5DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9E06C314E9B115000D5DB5 /* Build configuration list for PBXNativeTarget "WhatShallWeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9E06C414E9B115000D5DB5 /* Debug */,
+				AF9E06C514E9B115000D5DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9E06C614E9B116000D5DB5 /* Build configuration list for PBXNativeTarget "WhatShallWeWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9E06C714E9B116000D5DB5 /* Debug */,
+				AF9E06C814E9B116000D5DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF9E068714E9B115000D5DB5 /* Project object */;
+}
