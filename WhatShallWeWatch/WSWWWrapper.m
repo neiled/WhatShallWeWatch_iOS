@@ -12,7 +12,7 @@
 
 + (NSArray *) searchForFilmWithTitle:(NSString *)filmName
 {
-    return nil;
+    return [NSArray arrayWithObject:@"Test"];
 }
 
 @end

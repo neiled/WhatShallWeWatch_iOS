@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddFilmViewController : UITableViewController  <UISearchDisplayDelegate, UISearchBarDelegate>
+@interface AddFilmViewController : UITableViewController  <UISearchDisplayDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UISearchDisplayController *searchDisplayController;
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @property (nonatomic, strong) NSArray *allItems;
