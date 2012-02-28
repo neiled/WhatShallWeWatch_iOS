@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddFilmProtocol.h"
 
-@interface WSWWViewController : UIViewController
+@interface WSWWViewController : UITableViewController <AddFilm>
+@property (nonatomic, strong) NSArray *allItems;
 
 @end

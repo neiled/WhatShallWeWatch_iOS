@@ -7,12 +7,15 @@
 //
 
 #import "WSWWWrapper.h"
+#import "Film.h"
 
 @implementation WSWWWrapper
 
 + (NSArray *) searchForFilmWithTitle:(NSString *)filmName
 {
-    return [NSArray arrayWithObject:@"Test"];
+    Film* foundFilm = [[Film alloc] init];
+    foundFilm.filmName = @"The Artist";
+    return [NSArray arrayWithObject:foundFilm];
 }
 
 @end

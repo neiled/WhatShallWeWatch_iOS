@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddFilmProtocol.h"
 
 @interface AddFilmViewController : UITableViewController  <UISearchDisplayDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UISearchDisplayController *searchDisplayController;
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (weak, nonatomic) id<AddFilm> addFilmDelegate;
 @property (nonatomic, strong) NSArray *allItems;
 @property (nonatomic, strong) NSArray *searchResults;
 

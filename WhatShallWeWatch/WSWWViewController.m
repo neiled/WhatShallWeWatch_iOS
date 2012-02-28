@@ -7,8 +7,11 @@
 //
 
 #import "WSWWViewController.h"
+#import "AddFilmViewController.h"
 
 @implementation WSWWViewController
+
+@synthesize allItems = _allItems;
 
 - (void)didReceiveMemoryWarning
 {
@@ -16,39 +19,49 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
+-(void)AddFilm:(Film *)film
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    if(!self.allItems)
+        self.allItems = [NSArray arrayWithObject:film];
+    else
+        self.allItems = [self.allItems arrayByAddingObject:film];
+    [self.tableView reloadData];
+
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)aTableView {
+    // Return the number of sections.
+    return 1;
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
+- (NSInteger)tableView:(UITableView *)aTableView numberOfRowsInSection:(NSInteger)section {
+    // Return the number of rows in the section.
+    return [self.allItems count];
 }
 
-- (void)viewDidAppear:(BOOL)animated
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [super viewDidAppear:animated];
+	static NSString *CellIdentifier = @"Chosen Film";
+	
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	if (cell == nil)
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    
+    Film* foundFilm = [self.allItems objectAtIndex:indexPath.row];
+    cell.textLabel.text = foundFilm.filmName;
+    
+    
+	return cell;
+    
 }
 
-- (void)viewWillDisappear:(BOOL)animated
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
+    if ([[segue identifier] isEqualToString:@"SearchForFilm"])
+    {
+        AddFilmViewController *detailViewController = [segue destinationViewController];
+        detailViewController.addFilmDelegate = self;
+    }
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -57,4 +70,8 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (void)viewDidUnload {
+    [self setTableView:nil];
+    [super viewDidUnload];
+}
 @end

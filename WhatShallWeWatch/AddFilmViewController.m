@@ -8,12 +8,15 @@
 
 #import "AddFilmViewController.h"
 #import "WSWWWrapper.h"
+#import "Film.h"
+#import "AddFilmProtocol.h"
 
 @implementation AddFilmViewController
 @synthesize searchDisplayController;
 @synthesize searchBar;
 @synthesize allItems = _allItems;
 @synthesize searchResults = _searchResults;
+@synthesize addFilmDelegate = _addFilmDelegate;
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)sender
 {
@@ -43,17 +46,26 @@
 	if ([self.searchResults count] == 0)
 		cell.textLabel.text = @"(Nothing found)";
 	else
-		cell.textLabel.text = [self.searchResults objectAtIndex:indexPath.row];
+    {
+        Film* foundFilm = [self.searchResults objectAtIndex:indexPath.row];
+		cell.textLabel.text = foundFilm.filmName;
+    }
     
 	return cell;
     
 }
 
-- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return NO;
-}
+    Film* foundFilm = [self.searchResults objectAtIndex:indexPath.row];
+    self.allItems = [self.allItems arrayByAddingObject:[self.searchResults objectAtIndex:indexPath.row]];
+    NSLog(@"filteredListContent: %@", foundFilm );
+    
+    [self.addFilmDelegate AddFilm:foundFilm];
+    
+    [[self navigationController] popViewControllerAnimated:YES];
 
+}
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

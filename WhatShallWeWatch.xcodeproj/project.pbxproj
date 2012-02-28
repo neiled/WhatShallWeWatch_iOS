@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF76814D14FA7AC100D9265E /* WSWWWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF76814C14FA7AC100D9265E /* WSWWWrapper.m */; };
+		AF85A38014FC18DE009B7481 /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85A37F14FC18DE009B7481 /* Film.m */; };
 		AF9E069514E9B115000D5DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069414E9B115000D5DB5 /* UIKit.framework */; };
 		AF9E069714E9B115000D5DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069614E9B115000D5DB5 /* Foundation.framework */; };
 		AF9E069914E9B115000D5DB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069814E9B115000D5DB5 /* CoreGraphics.framework */; };
@@ -79,6 +80,9 @@
 /* Begin PBXFileReference section */
 		AF76814B14FA7AC100D9265E /* WSWWWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSWWWrapper.h; sourceTree = "<group>"; };
 		AF76814C14FA7AC100D9265E /* WSWWWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSWWWrapper.m; sourceTree = "<group>"; };
+		AF85A37D14FC18B3009B7481 /* AddFilmProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFilmProtocol.h; sourceTree = "<group>"; };
+		AF85A37E14FC18DE009B7481 /* Film.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Film.h; sourceTree = "<group>"; };
+		AF85A37F14FC18DE009B7481 /* Film.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Film.m; sourceTree = "<group>"; };
 		AF9E069014E9B115000D5DB5 /* WhatShallWeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatShallWeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9E069414E9B115000D5DB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AF9E069614E9B115000D5DB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -190,6 +194,9 @@
 				AF9E06CF14E9B6D8000D5DB5 /* AddFilmViewController.m */,
 				AF76814B14FA7AC100D9265E /* WSWWWrapper.h */,
 				AF76814C14FA7AC100D9265E /* WSWWWrapper.m */,
+				AF85A37D14FC18B3009B7481 /* AddFilmProtocol.h */,
+				AF85A37E14FC18DE009B7481 /* Film.h */,
+				AF85A37F14FC18DE009B7481 /* Film.m */,
 			);
 			path = WhatShallWeWatch;
 			sourceTree = "<group>";
@@ -384,6 +391,7 @@
 				AF9E06AB14E9B115000D5DB5 /* WSWWViewController.m in Sources */,
 				AF9E06D014E9B6D8000D5DB5 /* AddFilmViewController.m in Sources */,
 				AF76814D14FA7AC100D9265E /* WSWWWrapper.m in Sources */,
+				AF85A38014FC18DE009B7481 /* Film.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
