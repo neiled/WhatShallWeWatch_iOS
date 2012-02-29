@@ -22,9 +22,11 @@
 -(void)AddFilm:(Film *)film
 {
     if(!self.allItems)
-        self.allItems = [NSArray arrayWithObject:film];
+        self.allItems = [NSMutableArray arrayWithObject:film];
     else
-        self.allItems = [self.allItems arrayByAddingObject:film];
+        [self.allItems addObject:film];
+    
+    [self.allItems sortUsingSelector:@selector(compareFilm:)];
     [self.tableView reloadData];
 
 }
@@ -49,10 +51,21 @@
     
     Film* foundFilm = [self.allItems objectAtIndex:indexPath.row];
     cell.textLabel.text = foundFilm.filmName;
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%d",foundFilm.rating];
     
     
 	return cell;
     
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView beginUpdates];    
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        [self.allItems removeObjectAtIndex:indexPath.row];
+        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObjects:indexPath, nil] withRowAnimation:YES];      
+    }       
+    [tableView endUpdates];    
 }
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

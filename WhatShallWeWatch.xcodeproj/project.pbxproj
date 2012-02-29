@@ -144,6 +144,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF2EC76A14FD739F00F54ECA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF85A37E14FC18DE009B7481 /* Film.h */,
+				AF85A37F14FC18DE009B7481 /* Film.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		AF9E068514E9B115000D5DB5 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +193,7 @@
 		AF9E069A14E9B115000D5DB5 /* WhatShallWeWatch */ = {
 			isa = PBXGroup;
 			children = (
+				AF2EC76A14FD739F00F54ECA /* Models */,
 				AF9E06A314E9B115000D5DB5 /* WSWWAppDelegate.h */,
 				AF9E06A414E9B115000D5DB5 /* WSWWAppDelegate.m */,
 				AF9E06A614E9B115000D5DB5 /* MainStoryboard.storyboard */,
@@ -195,8 +205,6 @@
 				AF76814B14FA7AC100D9265E /* WSWWWrapper.h */,
 				AF76814C14FA7AC100D9265E /* WSWWWrapper.m */,
 				AF85A37D14FC18B3009B7481 /* AddFilmProtocol.h */,
-				AF85A37E14FC18DE009B7481 /* Film.h */,
-				AF85A37F14FC18DE009B7481 /* Film.m */,
 			);
 			path = WhatShallWeWatch;
 			sourceTree = "<group>";

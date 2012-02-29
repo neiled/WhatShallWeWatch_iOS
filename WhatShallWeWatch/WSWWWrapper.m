@@ -8,6 +8,7 @@
 
 #import "WSWWWrapper.h"
 #import "Film.h"
+#import <stdlib.h>
 
 @implementation WSWWWrapper
 
@@ -15,6 +16,8 @@
 {
     Film* foundFilm = [[Film alloc] init];
     foundFilm.filmName = @"The Artist";
+    foundFilm.filmYear = @"2011";
+    foundFilm.rating = arc4random() % 100;
     return [NSArray arrayWithObject:foundFilm];
 }
 

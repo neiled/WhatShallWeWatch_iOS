@@ -16,6 +16,7 @@
 @synthesize searchBar;
 @synthesize allItems = _allItems;
 @synthesize searchResults = _searchResults;
+@synthesize foundFilmTableView = _foundFilmTableView;
 @synthesize addFilmDelegate = _addFilmDelegate;
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)sender
@@ -39,7 +40,7 @@
 {
 	static NSString *CellIdentifier = @"Found Film";
 	
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	UITableViewCell *cell = [[self foundFilmTableView] dequeueReusableCellWithIdentifier:CellIdentifier];
 	if (cell == nil)
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     
@@ -49,6 +50,7 @@
     {
         Film* foundFilm = [self.searchResults objectAtIndex:indexPath.row];
 		cell.textLabel.text = foundFilm.filmName;
+        cell.detailTextLabel.text = foundFilm.filmYear;
     }
     
 	return cell;
@@ -106,6 +108,7 @@
 {
     [self setSearchDisplayController:nil];
     [self setSearchBar:nil];
+    [self setFoundFilmTableView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

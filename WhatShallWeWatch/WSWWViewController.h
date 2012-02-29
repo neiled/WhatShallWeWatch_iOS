@@ -10,6 +10,6 @@
 #import "AddFilmProtocol.h"
 
 @interface WSWWViewController : UITableViewController <AddFilm>
-@property (nonatomic, strong) NSArray *allItems;
+@property (nonatomic, strong) NSMutableArray *allItems;
 
 @end

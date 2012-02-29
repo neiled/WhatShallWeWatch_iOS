@@ -15,5 +15,6 @@
 @property (weak, nonatomic) id<AddFilm> addFilmDelegate;
 @property (nonatomic, strong) NSArray *allItems;
 @property (nonatomic, strong) NSArray *searchResults;
+@property (weak, nonatomic) IBOutlet UITableView *foundFilmTableView;
 
 @end
