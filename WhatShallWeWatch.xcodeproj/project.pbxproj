@@ -23,7 +23,6 @@
 		AF9E06BD14E9B115000D5DB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF9E06BB14E9B115000D5DB5 /* InfoPlist.strings */; };
 		AF9E06C014E9B115000D5DB5 /* WhatShallWeWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9E06BF14E9B115000D5DB5 /* WhatShallWeWatchTests.m */; };
 		AF9E06D014E9B6D8000D5DB5 /* AddFilmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9E06CF14E9B6D8000D5DB5 /* AddFilmViewController.m */; };
-		AF9E06E514E9C0ED000D5DB5 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06DC14E9C030000D5DB5 /* libRestKit.a */; };
 		AF9E06E714E9C134000D5DB5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06E614E9C134000D5DB5 /* CFNetwork.framework */; };
 		AF9E06E914E9C13A000D5DB5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06E814E9C13A000D5DB5 /* CoreData.framework */; };
 		AF9E06EB14E9C145000D5DB5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06EA14E9C145000D5DB5 /* MobileCoreServices.framework */; };
@@ -50,41 +49,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = AF9E068F14E9B115000D5DB5;
 			remoteInfo = WhatShallWeWatch;
-		};
-		AF9E06DB14E9C030000D5DB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25160D1614564E810060A5C5;
-			remoteInfo = RestKit;
-		};
-		AF9E06DD14E9C030000D5DB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25160D2614564E820060A5C5;
-			remoteInfo = RestKitTests;
-		};
-		AF9E06DF14E9C030000D5DB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25160E62145651060060A5C5;
-			remoteInfo = RestKitFramework;
-		};
-		AF9E06E114E9C030000D5DB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25160E78145651060060A5C5;
-			remoteInfo = RestKitFrameworkTests;
-		};
-		AF9E06E314E9C0C0000D5DB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 25160D1514564E810060A5C5;
-			remoteInfo = RestKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -115,7 +79,6 @@
 		AF9E06BF14E9B115000D5DB5 /* WhatShallWeWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatShallWeWatchTests.m; sourceTree = "<group>"; };
 		AF9E06CE14E9B6D8000D5DB5 /* AddFilmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFilmViewController.h; sourceTree = "<group>"; };
 		AF9E06CF14E9B6D8000D5DB5 /* AddFilmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFilmViewController.m; sourceTree = "<group>"; };
-		AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
 		AF9E06E614E9C134000D5DB5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		AF9E06E814E9C13A000D5DB5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AF9E06EA14E9C145000D5DB5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -158,7 +121,6 @@
 				AF9E06EB14E9C145000D5DB5 /* MobileCoreServices.framework in Frameworks */,
 				AF9E06E914E9C13A000D5DB5 /* CoreData.framework in Frameworks */,
 				AF9E06E714E9C134000D5DB5 /* CFNetwork.framework in Frameworks */,
-				AF9E06E514E9C0ED000D5DB5 /* libRestKit.a in Frameworks */,
 				AF9E069514E9B115000D5DB5 /* UIKit.framework in Frameworks */,
 				AF9E069714E9B115000D5DB5 /* Foundation.framework in Frameworks */,
 				AF9E069914E9B115000D5DB5 /* CoreGraphics.framework in Frameworks */,
@@ -197,7 +159,6 @@
 				AF9E06EA14E9C145000D5DB5 /* MobileCoreServices.framework */,
 				AF9E06E814E9C13A000D5DB5 /* CoreData.framework */,
 				AF9E06E614E9C134000D5DB5 /* CFNetwork.framework */,
-				AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */,
 				AF9E069A14E9B115000D5DB5 /* WhatShallWeWatch */,
 				AF9E06B814E9B115000D5DB5 /* WhatShallWeWatchTests */,
 				AF9E069314E9B115000D5DB5 /* Frameworks */,
@@ -276,17 +237,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AF9E06D214E9C030000D5DB5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AF9E06DC14E9C030000D5DB5 /* libRestKit.a */,
-				AF9E06DE14E9C030000D5DB5 /* RestKitTests.octest */,
-				AF9E06E014E9C030000D5DB5 /* RestKit.framework */,
-				AF9E06E214E9C030000D5DB5 /* RestKitFrameworkTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		AFC778531505671C00BE76F8 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,7 +279,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				AF9E06E414E9C0C0000D5DB5 /* PBXTargetDependency */,
 			);
 			name = WhatShallWeWatch;
 			productName = WhatShallWeWatch;
@@ -373,12 +322,6 @@
 			mainGroup = AF9E068514E9B115000D5DB5;
 			productRefGroup = AF9E069114E9B115000D5DB5 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = AF9E06D214E9C030000D5DB5 /* Products */;
-					ProjectRef = AF9E06D114E9C030000D5DB5 /* RestKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				AF9E068F14E9B115000D5DB5 /* WhatShallWeWatch */,
@@ -386,37 +329,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		AF9E06DC14E9C030000D5DB5 /* libRestKit.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRestKit.a;
-			remoteRef = AF9E06DB14E9C030000D5DB5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AF9E06DE14E9C030000D5DB5 /* RestKitTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = RestKitTests.octest;
-			remoteRef = AF9E06DD14E9C030000D5DB5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AF9E06E014E9C030000D5DB5 /* RestKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = RestKit.framework;
-			remoteRef = AF9E06DF14E9C030000D5DB5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AF9E06E214E9C030000D5DB5 /* RestKitFrameworkTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = RestKitFrameworkTests.octest;
-			remoteRef = AF9E06E114E9C030000D5DB5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AF9E068E14E9B115000D5DB5 /* Resources */ = {
@@ -494,11 +406,6 @@
 			isa = PBXTargetDependency;
 			target = AF9E068F14E9B115000D5DB5 /* WhatShallWeWatch */;
 			targetProxy = AF9E06B614E9B115000D5DB5 /* PBXContainerItemProxy */;
-		};
-		AF9E06E414E9C0C0000D5DB5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RestKit;
-			targetProxy = AF9E06E314E9C0C0000D5DB5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

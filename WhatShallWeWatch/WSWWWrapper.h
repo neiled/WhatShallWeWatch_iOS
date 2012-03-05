@@ -10,7 +10,7 @@
 
 @interface WSWWWrapper : NSObject
 
-+ (NSArray *) searchForFilmWithTitle:(NSString *)filmName;
++ (void) searchForFilmWithTitle:(NSString *)filmName success:(void (^)(id result)) success;
 
 
 @end

@@ -23,7 +23,10 @@
 -(void)searchBarSearchButtonClicked:(UISearchBar *)sender
 {
     NSLog(@"Search Text %@", [sender text]);
-    self.searchResults = [WSWWWrapper searchForFilmWithTitle:[sender text]];
+    [WSWWWrapper searchForFilmWithTitle:[sender text] success:^(id results){
+        //store in self.results
+        NSLog(@"Results: %@", results);
+    }];
     [self.searchDisplayController.searchResultsTableView reloadData];
 }
 

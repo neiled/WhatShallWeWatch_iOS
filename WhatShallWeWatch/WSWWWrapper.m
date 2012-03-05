@@ -13,21 +13,25 @@
 
 @implementation WSWWWrapper
 
-+ (NSArray *) searchForFilmWithTitle:(NSString *)filmName
++ (void) searchForFilmWithTitle:(NSString *)filmName success:(void (^)(id JSON))success
 {
-    Film* foundFilm = [[Film alloc] init];
+//    Film* foundFilm = [[Film alloc] init];
 //    foundFilm.filmName = @"The Artist";
 //    foundFilm.filmYear = @"2011";
 //    foundFilm.rating = arc4random() % 100;
 //    return [NSArray arrayWithObject:foundFilm];
 
-    NSURL *url = [NSURL URLWithString:@"http://localhost.com:4567/api/v1/film_search/artist"];
+    NSURL *url = [NSURL URLWithString:@"http://localhost:4567/api/v1/film_search/artist"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
 
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         NSLog(@"Results:%@", JSON);
-        //NSLog(@"Name: %@ %@", [JSON valueForKeyPath:@"first_name"], [JSON valueForKeyPath:@"last_name"]);
-    } failure:nil];
+        success(JSON);
+    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON)
+                                                                                                                      {
+                                                                                                                          NSLog(@"%@", error);
+                                                                                                                      }
+    ];
 
     [operation start];
 }
