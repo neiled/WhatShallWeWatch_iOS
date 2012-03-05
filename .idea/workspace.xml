@@ -2,21 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bbd6f35-45d6-471f-a3e7-e5ebabf37793" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/WhatShallWeWatch.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFHTTPClient.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFHTTPClient.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFHTTPRequestOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFHTTPRequestOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFImageRequestOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFImageRequestOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFJSONRequestOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFJSONRequestOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFJSONUtilities.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFJSONUtilities.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFNetworkActivityIndicatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFNetworkActivityIndicatorManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFPropertyListRequestOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFPropertyListRequestOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFURLConnectionOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFURLConnectionOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFXMLRequestOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/AFXMLRequestOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/UIImageView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AFNetworking/UIImageView+AFNetworking.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/project.xcworkspace/xcuserdata/Edwards.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/project.xcworkspace/xcuserdata/Edwards.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/xcuserdata/Edwards.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist" afterPath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/xcuserdata/Edwards.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/xcuserdata/Edwards.xcuserdatad/xcschemes/WhatShallWeWatch.xcscheme" afterPath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/xcuserdata/Edwards.xcuserdatad/xcschemes/WhatShallWeWatch.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch/AddFilmViewController.m" afterPath="$PROJECT_DIR$/WhatShallWeWatch/AddFilmViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch/en.lproj/MainStoryboard.storyboard" afterPath="$PROJECT_DIR$/WhatShallWeWatch/en.lproj/MainStoryboard.storyboard" />
     </list>
     <ignored path="WhatShallWeWatch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,37 +44,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="WhatShallWeWatch" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AddFilmTableViewCell.h" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddFilmTableViewCell.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WSWWViewController.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/WSWWViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,6 +79,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="DirectoryView.Xcode">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatShallWeWatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,14 +115,18 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="DirectoryView.Xcode">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="WhatShallWeWatch" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RestKit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -208,10 +200,11 @@
     <frame x="0" y="22" width="1920" height="1087" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296593" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14865577" sideWeight="0.6706949" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32999474" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -221,7 +214,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296593" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -287,16 +279,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
   </component>
