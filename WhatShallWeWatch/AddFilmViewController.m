@@ -10,6 +10,7 @@
 #import "WSWWWrapper.h"
 #import "Film.h"
 #import "AddFilmProtocol.h"
+#import "AddFilmTableViewCell.h"
 
 @implementation AddFilmViewController
 @synthesize searchDisplayController;
@@ -40,17 +41,18 @@
 {
 	static NSString *CellIdentifier = @"Found Film";
 	
-	UITableViewCell *cell = [[self foundFilmTableView] dequeueReusableCellWithIdentifier:CellIdentifier];
+	AddFilmTableViewCell *cell = [[self foundFilmTableView] dequeueReusableCellWithIdentifier:CellIdentifier];
 	if (cell == nil)
-		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+		cell = [[AddFilmTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     
 	if ([self.searchResults count] == 0)
 		cell.textLabel.text = @"(Nothing found)";
 	else
     {
         Film* foundFilm = [self.searchResults objectAtIndex:indexPath.row];
-		cell.textLabel.text = foundFilm.filmName;
-        cell.detailTextLabel.text = foundFilm.filmYear;
+		cell.filmTitleLabel.text = foundFilm.filmName;
+        cell.yearLabel.text = foundFilm.filmYear;
+        cell.genreLabel.text = @"Horror";
     }
     
 	return cell;

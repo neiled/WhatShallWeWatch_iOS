@@ -30,6 +30,7 @@
 		AF9E06ED14E9C14D000D5DB5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06EC14E9C14D000D5DB5 /* Security.framework */; };
 		AF9E06EF14E9C154000D5DB5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06EE14E9C154000D5DB5 /* SystemConfiguration.framework */; };
 		AF9E06F114E9C161000D5DB5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06F014E9C161000D5DB5 /* libxml2.dylib */; };
+		AFC7A3EF14FED42B0018A434 /* AddFilmTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC7A3EE14FED42B0018A434 /* AddFilmTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,8 @@
 		AF9E06EC14E9C14D000D5DB5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AF9E06EE14E9C154000D5DB5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AF9E06F014E9C161000D5DB5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		AFC7A3ED14FED42B0018A434 /* AddFilmTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFilmTableViewCell.h; sourceTree = "<group>"; };
+		AFC7A3EE14FED42B0018A434 /* AddFilmTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFilmTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +208,8 @@
 				AF76814B14FA7AC100D9265E /* WSWWWrapper.h */,
 				AF76814C14FA7AC100D9265E /* WSWWWrapper.m */,
 				AF85A37D14FC18B3009B7481 /* AddFilmProtocol.h */,
+				AFC7A3ED14FED42B0018A434 /* AddFilmTableViewCell.h */,
+				AFC7A3EE14FED42B0018A434 /* AddFilmTableViewCell.m */,
 			);
 			path = WhatShallWeWatch;
 			sourceTree = "<group>";
@@ -400,6 +405,7 @@
 				AF9E06D014E9B6D8000D5DB5 /* AddFilmViewController.m in Sources */,
 				AF76814D14FA7AC100D9265E /* WSWWWrapper.m in Sources */,
 				AF85A38014FC18DE009B7481 /* Film.m in Sources */,
+				AFC7A3EF14FED42B0018A434 /* AddFilmTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
