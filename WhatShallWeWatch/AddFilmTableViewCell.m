@@ -12,7 +12,7 @@
 
 @synthesize filmTitleLabel = _filmTitleLabel;
 @synthesize yearLabel = _yearLabel;
-@synthesize genreLabel = _genreLabel;
+@synthesize ratingLabel = _ratingLabel;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

@@ -99,8 +99,8 @@
                                             <color key="textColor" red="0.21960785984992981" green="0.32941177487373352" blue="0.52941179275512695" alpha="1" colorSpace="deviceRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Genre" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="bxj-Gd-bq3">
-                                            <rect key="frame" x="252" y="20" width="48" height="21"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Rating" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="bxj-Gd-bq3">
+                                            <rect key="frame" x="262" y="20" width="38" height="16"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -111,7 +111,7 @@
                                 </view>
                                 <connections>
                                     <outlet property="filmTitleLabel" destination="y6w-UO-H1K" id="YUN-VP-v0Y"/>
-                                    <outlet property="genreLabel" destination="bxj-Gd-bq3" id="Sb0-lQ-Ntl"/>
+                                    <outlet property="ratingLabel" destination="bxj-Gd-bq3" id="E0e-ux-DDg"/>
                                     <outlet property="yearLabel" destination="qSE-tk-WYU" id="MvC-GN-SpL"/>
                                 </connections>
                             </tableViewCell>
@@ -164,7 +164,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AddFilmTableViewCell.h"/>
             <relationships>
                 <relationship kind="outlet" name="filmTitleLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="genreLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="ratingLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="yearLabel" candidateClass="UILabel"/>
             </relationships>
         </class>

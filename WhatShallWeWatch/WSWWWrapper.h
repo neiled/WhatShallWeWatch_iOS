@@ -11,6 +11,6 @@
 @interface WSWWWrapper : NSObject
 
 + (void) searchForFilmWithTitle:(NSString *)filmName success:(void (^)(id result)) success;
-
++ (NSArray *) parseFilms:(NSArray *)JSON;
 
 @end

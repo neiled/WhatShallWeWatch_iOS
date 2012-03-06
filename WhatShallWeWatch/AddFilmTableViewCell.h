@@ -12,6 +12,6 @@
 
 @property(nonatomic,readonly,retain) IBOutlet UILabel* filmTitleLabel;
 @property(nonatomic,readonly,retain) IBOutlet UILabel* yearLabel;
-@property(nonatomic,readonly,retain) IBOutlet UILabel* genreLabel;
+@property(nonatomic,readonly,retain) IBOutlet UILabel* ratingLabel;
 
 @end

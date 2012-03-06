@@ -23,11 +23,10 @@
 -(void)searchBarSearchButtonClicked:(UISearchBar *)sender
 {
     NSLog(@"Search Text %@", [sender text]);
-    [WSWWWrapper searchForFilmWithTitle:[sender text] success:^(id results){
-        //store in self.results
-        NSLog(@"Results: %@", results);
+    [WSWWWrapper searchForFilmWithTitle:[sender text] success:^(NSArray* films){
+        self.searchResults = [NSArray arrayWithArray:films];
+        [self.searchDisplayController.searchResultsTableView reloadData];
     }];
-    [self.searchDisplayController.searchResultsTableView reloadData];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)aTableView {
@@ -55,7 +54,7 @@
         Film* foundFilm = [self.searchResults objectAtIndex:indexPath.row];
 		cell.filmTitleLabel.text = foundFilm.filmName;
         cell.yearLabel.text = foundFilm.filmYear;
-        cell.genreLabel.text = @"Horror";
+        cell.ratingLabel.text = [NSString stringWithFormat:@"%d",foundFilm.rating];
     }
     
 	return cell;

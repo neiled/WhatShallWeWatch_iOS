@@ -4,10 +4,12 @@
     <list default="true" id="9bbd6f35-45d6-471f-a3e7-e5ebabf37793" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/project.xcworkspace/xcuserdata/Edwards.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/project.xcworkspace/xcuserdata/Edwards.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/WhatShallWeWatch.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.h" afterPath="$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.m" afterPath="$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch/AddFilmViewController.m" afterPath="$PROJECT_DIR$/WhatShallWeWatch/AddFilmViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch/WSWWWrapper.h" afterPath="$PROJECT_DIR$/WhatShallWeWatch/WSWWWrapper.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch/WSWWWrapper.m" afterPath="$PROJECT_DIR$/WhatShallWeWatch/WSWWWrapper.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WhatShallWeWatch/en.lproj/MainStoryboard.storyboard" afterPath="$PROJECT_DIR$/WhatShallWeWatch/en.lproj/MainStoryboard.storyboard" />
     </list>
     <ignored path="WhatShallWeWatch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +31,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Film.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/Film.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.28718704">
+              <folding>
+                <element signature="e#189#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Film.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/Film.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="14" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AddFilmViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/AddFilmViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
+            <state line="56" column="80" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,16 +78,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WSWWWrapper.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/WSWWWrapper.m">
+      <file leaf-file-name="WSWWViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/WSWWViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="911" selection-end="911" vertical-scroll-proportion="0.57507986">
+            <state line="53" column="83" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AddFilmTableViewCell.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WSWWWrapper.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/WSWWWrapper.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="23" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#155#178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,15 +121,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/WhatShallWeWatch/WSWWWrapper.h" />
-        <option value="$PROJECT_DIR$/WhatShallWeWatch/AddFilmViewController.m" />
         <option value="$PROJECT_DIR$/WhatShallWeWatch/WSWWWrapper.m" />
+        <option value="$PROJECT_DIR$/WhatShallWeWatch/AddFilmViewController.m" />
+        <option value="$PROJECT_DIR$/WhatShallWeWatch/Film.h" />
+        <option value="$PROJECT_DIR$/WhatShallWeWatch/Film.m" />
       </list>
     </option>
   </component>
+  <component name="PerforceDirect.Settings">
+    <option name="myCanGoOffline" value="true" />
+  </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1087" />
+    <option name="height" value="1146" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -146,6 +199,24 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatShallWeWatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatShallWeWatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -153,7 +224,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="XcodeSettings" />
+    <property name="options.lastSelected" value="preferences.editor" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -170,14 +241,16 @@
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
       <ConfigurationWrapper RunnerId="AppRunner" />
-      <method />
+      <method>
+        <option name="com.jetbrains.cidr.execution.StopCurrentSessionBeforeRunTaskProvider$StopCurrentSessionBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.WhatShallWeWatch" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -204,18 +277,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1087" extended-state="0" />
+    <frame x="-1" y="22" width="1920" height="1146" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32999474" sideWeight="0.6706949" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21507643" sideWeight="0.67110264" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39923954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -279,31 +352,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/WhatShallWeWatch/AddFilmViewController.m</url>
-          <line>27</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/WhatShallWeWatch/WSWWWrapper.m</url>
-          <line>31</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/WhatShallWeWatch/WSWWWrapper.m</url>
-          <line>27</line>
+          <line>35</line>
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/WSWWViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -323,17 +378,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/AddFilmTableViewCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/WSWWViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="83" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/AddFilmViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
+        <state line="56" column="80" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/WSWWWrapper.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="911" selection-end="911" vertical-scroll-proportion="0.57507986">
+        <state line="56" column="23" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#155#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/Film.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WhatShallWeWatch/Film.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.28718704">
+          <folding>
+            <element signature="e#189#222#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
