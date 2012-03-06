@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF68CA311506BDD3007DF29C /* tomato.png in Resources */ = {isa = PBXBuildFile; fileRef = AF68CA301506BDD3007DF29C /* tomato.png */; };
 		AF76814D14FA7AC100D9265E /* WSWWWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF76814C14FA7AC100D9265E /* WSWWWrapper.m */; };
 		AF85A38014FC18DE009B7481 /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85A37F14FC18DE009B7481 /* Film.m */; };
 		AF9E069514E9B115000D5DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069414E9B115000D5DB5 /* UIKit.framework */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF68CA301506BDD3007DF29C /* tomato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tomato.png; sourceTree = "<group>"; };
 		AF76814B14FA7AC100D9265E /* WSWWWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSWWWrapper.h; sourceTree = "<group>"; };
 		AF76814C14FA7AC100D9265E /* WSWWWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSWWWrapper.m; sourceTree = "<group>"; };
 		AF85A37D14FC18B3009B7481 /* AddFilmProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFilmProtocol.h; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 		AF9E069B14E9B115000D5DB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF68CA301506BDD3007DF29C /* tomato.png */,
 				AF9E069C14E9B115000D5DB5 /* WhatShallWeWatch-Info.plist */,
 				AF9E069D14E9B115000D5DB5 /* InfoPlist.strings */,
 				AF9E06A014E9B115000D5DB5 /* main.m */,
@@ -337,6 +340,7 @@
 			files = (
 				AF9E069F14E9B115000D5DB5 /* InfoPlist.strings in Resources */,
 				AF9E06A814E9B115000D5DB5 /* MainStoryboard.storyboard in Resources */,
+				AF68CA311506BDD3007DF29C /* tomato.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

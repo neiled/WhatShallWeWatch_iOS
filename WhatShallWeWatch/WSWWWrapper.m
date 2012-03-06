@@ -15,19 +15,15 @@
 
 + (void) searchForFilmWithTitle:(NSString *)filmName success:(void (^)(id JSON))success
 {
-//    Film* foundFilm = [[Film alloc] init];
-//    foundFilm.filmName = @"The Artist";
-//    foundFilm.filmYear = @"2011";
-//    foundFilm.rating = arc4random() % 100;
-//    return [NSArray arrayWithObject:foundFilm];
+    NSString *baseURL = @"http://localhost:4567/api/v1/film_search/";
+    NSString *finalURL = [baseURL stringByAppendingString:filmName];
 
-    NSURL *url = [NSURL URLWithString:@"http://localhost:4567/api/v1/film_search/artist"];
+    NSURL *url = [NSURL URLWithString:finalURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
 
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request
                                                                                               success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-                                                                                                  NSLog(@"Results:%@", JSON);
                                                                                                   dispatch_async(dispatch_get_main_queue(), ^{
                                                                                                       success([WSWWWrapper parseFilms:JSON]);
                                                                                                   });
