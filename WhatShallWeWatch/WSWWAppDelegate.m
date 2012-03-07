@@ -7,6 +7,7 @@
 //
 
 #import "WSWWAppDelegate.h"
+#import "TestFlight.h"
 
 @implementation WSWWAppDelegate
 
@@ -15,6 +16,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [TestFlight takeOff:@"df1d9a7ea54333ddd6e72e9dbc9c566d_Njg5OTIyMDEyLTAzLTA3IDE0OjI3OjAzLjM5ODk0OA"];
+    
     return YES;
 }
 							

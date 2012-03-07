@@ -10,6 +10,18 @@
 		AF68CA311506BDD3007DF29C /* tomato.png in Resources */ = {isa = PBXBuildFile; fileRef = AF68CA301506BDD3007DF29C /* tomato.png */; };
 		AF76814D14FA7AC100D9265E /* WSWWWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF76814C14FA7AC100D9265E /* WSWWWrapper.m */; };
 		AF85A38014FC18DE009B7481 /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85A37F14FC18DE009B7481 /* Film.m */; };
+		AF9B6DD215080B2D003B7B9F /* WhatShallWeWatch-72.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DCC15080B2D003B7B9F /* WhatShallWeWatch-72.png */; };
+		AF9B6DD315080B2D003B7B9F /* WhatShallWeWatch-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DCD15080B2D003B7B9F /* WhatShallWeWatch-Small-50.png */; };
+		AF9B6DD415080B2D003B7B9F /* WhatShallWeWatch-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DCE15080B2D003B7B9F /* WhatShallWeWatch-Small.png */; };
+		AF9B6DD515080B2D003B7B9F /* WhatShallWeWatch-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DCF15080B2D003B7B9F /* WhatShallWeWatch-Small@2x.png */; };
+		AF9B6DD615080B2D003B7B9F /* WhatShallWeWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DD015080B2D003B7B9F /* WhatShallWeWatch.png */; };
+		AF9B6DD715080B2D003B7B9F /* WhatShallWeWatch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DD115080B2D003B7B9F /* WhatShallWeWatch@2x.png */; };
+		AF9B6DD915080B55003B7B9F /* WhatShallWeWatch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DD815080B55003B7B9F /* WhatShallWeWatch@2x.png */; };
+		AF9B6DDB15080B5D003B7B9F /* WhatShallWeWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DDA15080B5D003B7B9F /* WhatShallWeWatch.png */; };
+		AF9B6DE11508186B003B7B9F /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9B6DDD1508186B003B7B9F /* libTestFlight.a */; };
+		AF9B6DE21508186B003B7B9F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DDE1508186B003B7B9F /* README.txt */; };
+		AF9B6DE31508186B003B7B9F /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DDF1508186B003B7B9F /* release_notes.txt */; };
+		AF9B6DE5150818A4003B7B9F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9B6DE4150818A4003B7B9F /* libz.dylib */; };
 		AF9E069514E9B115000D5DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069414E9B115000D5DB5 /* UIKit.framework */; };
 		AF9E069714E9B115000D5DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069614E9B115000D5DB5 /* Foundation.framework */; };
 		AF9E069914E9B115000D5DB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E069814E9B115000D5DB5 /* CoreGraphics.framework */; };
@@ -60,6 +72,19 @@
 		AF85A37D14FC18B3009B7481 /* AddFilmProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFilmProtocol.h; sourceTree = "<group>"; };
 		AF85A37E14FC18DE009B7481 /* Film.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Film.h; sourceTree = "<group>"; };
 		AF85A37F14FC18DE009B7481 /* Film.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Film.m; sourceTree = "<group>"; };
+		AF9B6DCC15080B2D003B7B9F /* WhatShallWeWatch-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch-72.png"; sourceTree = "<group>"; };
+		AF9B6DCD15080B2D003B7B9F /* WhatShallWeWatch-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch-Small-50.png"; sourceTree = "<group>"; };
+		AF9B6DCE15080B2D003B7B9F /* WhatShallWeWatch-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch-Small.png"; sourceTree = "<group>"; };
+		AF9B6DCF15080B2D003B7B9F /* WhatShallWeWatch-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch-Small@2x.png"; sourceTree = "<group>"; };
+		AF9B6DD015080B2D003B7B9F /* WhatShallWeWatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhatShallWeWatch.png; sourceTree = "<group>"; };
+		AF9B6DD115080B2D003B7B9F /* WhatShallWeWatch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch@2x.png"; sourceTree = "<group>"; };
+		AF9B6DD815080B55003B7B9F /* WhatShallWeWatch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch@2x.png"; sourceTree = "<group>"; };
+		AF9B6DDA15080B5D003B7B9F /* WhatShallWeWatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhatShallWeWatch.png; sourceTree = "<group>"; };
+		AF9B6DDD1508186B003B7B9F /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		AF9B6DDE1508186B003B7B9F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		AF9B6DDF1508186B003B7B9F /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
+		AF9B6DE01508186B003B7B9F /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		AF9B6DE4150818A4003B7B9F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		AF9E069014E9B115000D5DB5 /* WhatShallWeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatShallWeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9E069414E9B115000D5DB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AF9E069614E9B115000D5DB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9B6DE5150818A4003B7B9F /* libz.dylib in Frameworks */,
 				AF9E06F114E9C161000D5DB5 /* libxml2.dylib in Frameworks */,
 				AF9E06EF14E9C154000D5DB5 /* SystemConfiguration.framework in Frameworks */,
 				AF9E06ED14E9C14D000D5DB5 /* Security.framework in Frameworks */,
@@ -126,6 +152,7 @@
 				AF9E069514E9B115000D5DB5 /* UIKit.framework in Frameworks */,
 				AF9E069714E9B115000D5DB5 /* Foundation.framework in Frameworks */,
 				AF9E069914E9B115000D5DB5 /* CoreGraphics.framework in Frameworks */,
+				AF9B6DE11508186B003B7B9F /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +178,24 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		AF9B6DDC1508186B003B7B9F /* TestFlightSDK0.8.3 */ = {
+			isa = PBXGroup;
+			children = (
+				AF9B6DDD1508186B003B7B9F /* libTestFlight.a */,
+				AF9B6DDE1508186B003B7B9F /* README.txt */,
+				AF9B6DDF1508186B003B7B9F /* release_notes.txt */,
+				AF9B6DE01508186B003B7B9F /* TestFlight.h */,
+			);
+			path = TestFlightSDK0.8.3;
+			sourceTree = "<group>";
+		};
 		AF9E068514E9B115000D5DB5 = {
 			isa = PBXGroup;
 			children = (
+				AF9B6DE4150818A4003B7B9F /* libz.dylib */,
+				AF9B6DDC1508186B003B7B9F /* TestFlightSDK0.8.3 */,
+				AF9B6DDA15080B5D003B7B9F /* WhatShallWeWatch.png */,
+				AF9B6DD815080B55003B7B9F /* WhatShallWeWatch@2x.png */,
 				AFC778531505671C00BE76F8 /* AFNetworking */,
 				AF9E06F014E9C161000D5DB5 /* libxml2.dylib */,
 				AF9E06EE14E9C154000D5DB5 /* SystemConfiguration.framework */,
@@ -212,6 +254,12 @@
 		AF9E069B14E9B115000D5DB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF9B6DCC15080B2D003B7B9F /* WhatShallWeWatch-72.png */,
+				AF9B6DCD15080B2D003B7B9F /* WhatShallWeWatch-Small-50.png */,
+				AF9B6DCE15080B2D003B7B9F /* WhatShallWeWatch-Small.png */,
+				AF9B6DCF15080B2D003B7B9F /* WhatShallWeWatch-Small@2x.png */,
+				AF9B6DD015080B2D003B7B9F /* WhatShallWeWatch.png */,
+				AF9B6DD115080B2D003B7B9F /* WhatShallWeWatch@2x.png */,
 				AF68CA301506BDD3007DF29C /* tomato.png */,
 				AF9E069C14E9B115000D5DB5 /* WhatShallWeWatch-Info.plist */,
 				AF9E069D14E9B115000D5DB5 /* InfoPlist.strings */,
@@ -341,6 +389,16 @@
 				AF9E069F14E9B115000D5DB5 /* InfoPlist.strings in Resources */,
 				AF9E06A814E9B115000D5DB5 /* MainStoryboard.storyboard in Resources */,
 				AF68CA311506BDD3007DF29C /* tomato.png in Resources */,
+				AF9B6DD215080B2D003B7B9F /* WhatShallWeWatch-72.png in Resources */,
+				AF9B6DD315080B2D003B7B9F /* WhatShallWeWatch-Small-50.png in Resources */,
+				AF9B6DD415080B2D003B7B9F /* WhatShallWeWatch-Small.png in Resources */,
+				AF9B6DD515080B2D003B7B9F /* WhatShallWeWatch-Small@2x.png in Resources */,
+				AF9B6DD615080B2D003B7B9F /* WhatShallWeWatch.png in Resources */,
+				AF9B6DD715080B2D003B7B9F /* WhatShallWeWatch@2x.png in Resources */,
+				AF9B6DD915080B55003B7B9F /* WhatShallWeWatch@2x.png in Resources */,
+				AF9B6DDB15080B5D003B7B9F /* WhatShallWeWatch.png in Resources */,
+				AF9B6DE21508186B003B7B9F /* README.txt in Resources */,
+				AF9B6DE31508186B003B7B9F /* release_notes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,10 +523,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				COPY_PHASE_STRIP = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhatShallWeWatch/WhatShallWeWatch-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build\"";
 				INFOPLIST_FILE = "WhatShallWeWatch/WhatShallWeWatch-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -547,6 +610,10 @@
 				GCC_PREFIX_HEADER = "WhatShallWeWatch/WhatShallWeWatch-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build\"";
 				INFOPLIST_FILE = "WhatShallWeWatch/WhatShallWeWatch-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -563,6 +630,10 @@
 				GCC_PREFIX_HEADER = "WhatShallWeWatch/WhatShallWeWatch-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build\"";
 				INFOPLIST_FILE = "WhatShallWeWatch/WhatShallWeWatch-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",

@@ -12,6 +12,10 @@
 #import "AddFilmProtocol.h"
 #import "AddFilmTableViewCell.h"
 
+@interface AddFilmViewController()
+@property (readwrite, nonatomic, retain) UIActivityIndicatorView *activityIndicatorView;
+@end
+
 @implementation AddFilmViewController
 @synthesize searchDisplayController;
 @synthesize searchBar;
@@ -19,12 +23,16 @@
 @synthesize searchResults = _searchResults;
 @synthesize foundFilmTableView = _foundFilmTableView;
 @synthesize addFilmDelegate = _addFilmDelegate;
+@synthesize activityIndicatorView = _activityIndicatorView;
+
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)sender
 {
-    NSLog(@"Search Text %@", [sender text]);
+    [self.activityIndicatorView startAnimating];
+
     [WSWWWrapper searchForFilmWithTitle:[sender text] success:^(NSArray* films){
         self.searchResults = [NSArray arrayWithArray:films];
+        [self.activityIndicatorView stopAnimating];
         [self.searchDisplayController.searchResultsTableView reloadData];
     }];
 }
@@ -93,20 +101,22 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView
-{
-}
-*/
 
-/*
+// Implement loadView to create a view hierarchy programmatically, without using a nib.
+//- (void)loadView
+//{
+//
+//}
+
+
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-*/
+//- (void)viewDidLoad
+//{
+//    [super viewDidLoad];
+// 
+//}
+
 
 - (void)viewDidUnload
 {

@@ -15,8 +15,10 @@
 
 + (void) searchForFilmWithTitle:(NSString *)filmName success:(void (^)(id JSON))success
 {
-    NSString *baseURL = @"http://localhost:4567/api/v1/film_search/";
-    NSString *finalURL = [baseURL stringByAppendingString:filmName];
+    NSMutableString *baseURL = [NSMutableString stringWithString:@"http://whatshallwewatch.com/api/v1/film_search/"];
+    [baseURL appendString:filmName];
+    
+    NSString *finalURL = [baseURL stringByAddingPercentEscapesUsingEncoding: NSASCIIStringEncoding];
 
     NSURL *url = [NSURL URLWithString:finalURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
