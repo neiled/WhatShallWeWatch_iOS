@@ -12,10 +12,6 @@
 #import "AddFilmProtocol.h"
 #import "AddFilmTableViewCell.h"
 
-@interface AddFilmViewController()
-@property (readwrite, nonatomic, retain) UIActivityIndicatorView *activityIndicatorView;
-@end
-
 @implementation AddFilmViewController
 @synthesize searchDisplayController;
 @synthesize searchBar;
@@ -23,16 +19,18 @@
 @synthesize searchResults = _searchResults;
 @synthesize foundFilmTableView = _foundFilmTableView;
 @synthesize addFilmDelegate = _addFilmDelegate;
-@synthesize activityIndicatorView = _activityIndicatorView;
 
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)sender
 {
-    [self.activityIndicatorView startAnimating];
+    HUD = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
+    [self.navigationController.view addSubview:HUD];
+    
+    [HUD show:YES];
 
     [WSWWWrapper searchForFilmWithTitle:[sender text] success:^(NSArray* films){
+        [HUD hide:YES];        
         self.searchResults = [NSArray arrayWithArray:films];
-        [self.activityIndicatorView stopAnimating];
         [self.searchDisplayController.searchResultsTableView reloadData];
     }];
 }

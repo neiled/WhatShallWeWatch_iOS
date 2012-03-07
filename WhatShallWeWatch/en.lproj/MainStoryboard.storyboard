@@ -166,27 +166,6 @@
     <resources>
         <image name="tomato.png" width="16" height="16"/>
     </resources>
-    <classes>
-        <class className="AddFilmTableViewCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AddFilmTableViewCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="filmTitleLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="ratingLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="yearLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="AddFilmViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AddFilmViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="foundFilmTableView" candidateClass="UITableView"/>
-                <relationship kind="outlet" name="searchBar" candidateClass="UISearchBar"/>
-                <relationship kind="outlet" name="searchDisplayController" candidateClass="UISearchDisplayController"/>
-            </relationships>
-        </class>
-        <class className="WSWWViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WSWWViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
