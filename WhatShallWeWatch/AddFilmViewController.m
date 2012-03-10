@@ -25,14 +25,24 @@
 {
     HUD = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
     [self.navigationController.view addSubview:HUD];
-    
+
     [HUD show:YES];
 
     [WSWWWrapper searchForFilmWithTitle:[sender text] success:^(NSArray* films){
-        [HUD hide:YES];        
+        [HUD hide:YES];
         self.searchResults = [NSArray arrayWithArray:films];
         [self.searchDisplayController.searchResultsTableView reloadData];
-    }];
+    }
+                                failure:^(NSError* error){
+                                    [HUD hide:YES];
+                                    [self showAlertWithMessage: @"Unable to connect the internet."];
+                                }];
+}
+
+-(void)showAlertWithMessage:(NSString * )message
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Connection Issue" message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)aTableView {

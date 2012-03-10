@@ -15,7 +15,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF9E068F14E9B115000D5DB5"
                BuildableName = "WhatShallWeWatch.app"
-               BlueprintName = "WhatShallWeWatch"
+               BlueprintName = "WSWW"
                ReferencedContainer = "container:WhatShallWeWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,7 +43,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF9E068F14E9B115000D5DB5"
             BuildableName = "WhatShallWeWatch.app"
-            BlueprintName = "WhatShallWeWatch"
+            BlueprintName = "WSWW"
             ReferencedContainer = "container:WhatShallWeWatch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
