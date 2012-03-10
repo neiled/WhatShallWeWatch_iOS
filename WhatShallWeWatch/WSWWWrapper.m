@@ -13,7 +13,7 @@
 
 @implementation WSWWWrapper
 
-+ (void) searchForFilmWithTitle:(NSString *)filmName success:(void (^)(id JSON))success
++ (void) searchForFilmWithTitle:(NSString *)filmName success:(void (^)(id JSON))success failure:(void (^)(NSError *error))failure
 {
     NSMutableString *baseURL = [NSMutableString stringWithString:@"http://whatshallwewatch.com/api/v1/film_search/"];
     [baseURL appendString:filmName];
@@ -32,6 +32,9 @@
                                                                                               } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON)
                                                                                                         {
                                                                                                             NSLog(@"%@", error);
+                                                                                                            dispatch_async(dispatch_get_main_queue(), ^{
+                                                                                                                failure(error);
+                                                                                                            });
                                                                                                         }
         ];
 

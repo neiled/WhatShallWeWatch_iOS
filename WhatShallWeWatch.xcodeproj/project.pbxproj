@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF437C90150B89D7008B5159 /* WhatShallWeWatch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF437C8F150B89D7008B5159 /* WhatShallWeWatch@2x.png */; };
+		AF437C92150B8A38008B5159 /* WhatShallWeWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = AF437C91150B8A38008B5159 /* WhatShallWeWatch.png */; };
 		AF68CA311506BDD3007DF29C /* tomato.png in Resources */ = {isa = PBXBuildFile; fileRef = AF68CA301506BDD3007DF29C /* tomato.png */; };
 		AF76814D14FA7AC100D9265E /* WSWWWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF76814C14FA7AC100D9265E /* WSWWWrapper.m */; };
 		AF85A38014FC18DE009B7481 /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85A37F14FC18DE009B7481 /* Film.m */; };
+		AF93A07C1508258200932775 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AF93A07B1508258200932775 /* MBProgressHUD.m */; };
+		AF93A082150827EF00932775 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AF93A07B1508258200932775 /* MBProgressHUD.m */; };
 		AF9B6DD215080B2D003B7B9F /* WhatShallWeWatch-72.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DCC15080B2D003B7B9F /* WhatShallWeWatch-72.png */; };
 		AF9B6DD315080B2D003B7B9F /* WhatShallWeWatch-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DCD15080B2D003B7B9F /* WhatShallWeWatch-Small-50.png */; };
 		AF9B6DD415080B2D003B7B9F /* WhatShallWeWatch-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DCE15080B2D003B7B9F /* WhatShallWeWatch-Small.png */; };
 		AF9B6DD515080B2D003B7B9F /* WhatShallWeWatch-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DCF15080B2D003B7B9F /* WhatShallWeWatch-Small@2x.png */; };
-		AF9B6DD615080B2D003B7B9F /* WhatShallWeWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DD015080B2D003B7B9F /* WhatShallWeWatch.png */; };
-		AF9B6DD715080B2D003B7B9F /* WhatShallWeWatch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DD115080B2D003B7B9F /* WhatShallWeWatch@2x.png */; };
-		AF9B6DD915080B55003B7B9F /* WhatShallWeWatch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DD815080B55003B7B9F /* WhatShallWeWatch@2x.png */; };
-		AF9B6DDB15080B5D003B7B9F /* WhatShallWeWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DDA15080B5D003B7B9F /* WhatShallWeWatch.png */; };
 		AF9B6DE11508186B003B7B9F /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9B6DDD1508186B003B7B9F /* libTestFlight.a */; };
 		AF9B6DE21508186B003B7B9F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DDE1508186B003B7B9F /* README.txt */; };
 		AF9B6DE31508186B003B7B9F /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF9B6DDF1508186B003B7B9F /* release_notes.txt */; };
@@ -66,26 +66,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF437C8F150B89D7008B5159 /* WhatShallWeWatch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch@2x.png"; sourceTree = "<group>"; };
+		AF437C91150B8A38008B5159 /* WhatShallWeWatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhatShallWeWatch.png; sourceTree = "<group>"; };
 		AF68CA301506BDD3007DF29C /* tomato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tomato.png; sourceTree = "<group>"; };
 		AF76814B14FA7AC100D9265E /* WSWWWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSWWWrapper.h; sourceTree = "<group>"; };
 		AF76814C14FA7AC100D9265E /* WSWWWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSWWWrapper.m; sourceTree = "<group>"; };
 		AF85A37D14FC18B3009B7481 /* AddFilmProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFilmProtocol.h; sourceTree = "<group>"; };
 		AF85A37E14FC18DE009B7481 /* Film.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Film.h; sourceTree = "<group>"; };
 		AF85A37F14FC18DE009B7481 /* Film.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Film.m; sourceTree = "<group>"; };
+		AF93A07A1508258200932775 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgressHUD/MBProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		AF93A07B1508258200932775 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MBProgressHUD/MBProgressHUD.m; sourceTree = SOURCE_ROOT; };
 		AF9B6DCC15080B2D003B7B9F /* WhatShallWeWatch-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch-72.png"; sourceTree = "<group>"; };
 		AF9B6DCD15080B2D003B7B9F /* WhatShallWeWatch-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch-Small-50.png"; sourceTree = "<group>"; };
 		AF9B6DCE15080B2D003B7B9F /* WhatShallWeWatch-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch-Small.png"; sourceTree = "<group>"; };
 		AF9B6DCF15080B2D003B7B9F /* WhatShallWeWatch-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch-Small@2x.png"; sourceTree = "<group>"; };
 		AF9B6DD015080B2D003B7B9F /* WhatShallWeWatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhatShallWeWatch.png; sourceTree = "<group>"; };
 		AF9B6DD115080B2D003B7B9F /* WhatShallWeWatch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch@2x.png"; sourceTree = "<group>"; };
-		AF9B6DD815080B55003B7B9F /* WhatShallWeWatch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhatShallWeWatch@2x.png"; sourceTree = "<group>"; };
-		AF9B6DDA15080B5D003B7B9F /* WhatShallWeWatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhatShallWeWatch.png; sourceTree = "<group>"; };
 		AF9B6DDD1508186B003B7B9F /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
 		AF9B6DDE1508186B003B7B9F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		AF9B6DDF1508186B003B7B9F /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
 		AF9B6DE01508186B003B7B9F /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		AF9B6DE4150818A4003B7B9F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		AF9E069014E9B115000D5DB5 /* WhatShallWeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatShallWeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9E069014E9B115000D5DB5 /* WSWW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSWW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9E069414E9B115000D5DB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AF9E069614E9B115000D5DB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF9E069814E9B115000D5DB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -192,17 +194,12 @@
 		AF9E068514E9B115000D5DB5 = {
 			isa = PBXGroup;
 			children = (
+				AF437C91150B8A38008B5159 /* WhatShallWeWatch.png */,
+				AF437C8F150B89D7008B5159 /* WhatShallWeWatch@2x.png */,
 				AF9B6DE4150818A4003B7B9F /* libz.dylib */,
 				AF9B6DDC1508186B003B7B9F /* TestFlightSDK0.8.3 */,
-				AF9B6DDA15080B5D003B7B9F /* WhatShallWeWatch.png */,
-				AF9B6DD815080B55003B7B9F /* WhatShallWeWatch@2x.png */,
 				AFC778531505671C00BE76F8 /* AFNetworking */,
 				AF9E06F014E9C161000D5DB5 /* libxml2.dylib */,
-				AF9E06EE14E9C154000D5DB5 /* SystemConfiguration.framework */,
-				AF9E06EC14E9C14D000D5DB5 /* Security.framework */,
-				AF9E06EA14E9C145000D5DB5 /* MobileCoreServices.framework */,
-				AF9E06E814E9C13A000D5DB5 /* CoreData.framework */,
-				AF9E06E614E9C134000D5DB5 /* CFNetwork.framework */,
 				AF9E069A14E9B115000D5DB5 /* WhatShallWeWatch */,
 				AF9E06B814E9B115000D5DB5 /* WhatShallWeWatchTests */,
 				AF9E069314E9B115000D5DB5 /* Frameworks */,
@@ -213,7 +210,7 @@
 		AF9E069114E9B115000D5DB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF9E069014E9B115000D5DB5 /* WhatShallWeWatch.app */,
+				AF9E069014E9B115000D5DB5 /* WSWW.app */,
 				AF9E06B114E9B115000D5DB5 /* WhatShallWeWatchTests.octest */,
 			);
 			name = Products;
@@ -222,6 +219,11 @@
 		AF9E069314E9B115000D5DB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF9E06EE14E9C154000D5DB5 /* SystemConfiguration.framework */,
+				AF9E06EC14E9C14D000D5DB5 /* Security.framework */,
+				AF9E06EA14E9C145000D5DB5 /* MobileCoreServices.framework */,
+				AF9E06E814E9C13A000D5DB5 /* CoreData.framework */,
+				AF9E06E614E9C134000D5DB5 /* CFNetwork.framework */,
 				AF9E069414E9B115000D5DB5 /* UIKit.framework */,
 				AF9E069614E9B115000D5DB5 /* Foundation.framework */,
 				AF9E069814E9B115000D5DB5 /* CoreGraphics.framework */,
@@ -233,6 +235,8 @@
 		AF9E069A14E9B115000D5DB5 /* WhatShallWeWatch */ = {
 			isa = PBXGroup;
 			children = (
+				AF93A07A1508258200932775 /* MBProgressHUD.h */,
+				AF93A07B1508258200932775 /* MBProgressHUD.m */,
 				AF2EC76A14FD739F00F54ECA /* Models */,
 				AF9E06A314E9B115000D5DB5 /* WSWWAppDelegate.h */,
 				AF9E06A414E9B115000D5DB5 /* WSWWAppDelegate.m */,
@@ -319,9 +323,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF9E068F14E9B115000D5DB5 /* WhatShallWeWatch */ = {
+		AF9E068F14E9B115000D5DB5 /* WSWW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF9E06C314E9B115000D5DB5 /* Build configuration list for PBXNativeTarget "WhatShallWeWatch" */;
+			buildConfigurationList = AF9E06C314E9B115000D5DB5 /* Build configuration list for PBXNativeTarget "WSWW" */;
 			buildPhases = (
 				AF9E068C14E9B115000D5DB5 /* Sources */,
 				AF9E068D14E9B115000D5DB5 /* Frameworks */,
@@ -331,9 +335,9 @@
 			);
 			dependencies = (
 			);
-			name = WhatShallWeWatch;
+			name = WSWW;
 			productName = WhatShallWeWatch;
-			productReference = AF9E069014E9B115000D5DB5 /* WhatShallWeWatch.app */;
+			productReference = AF9E069014E9B115000D5DB5 /* WSWW.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AF9E06B014E9B115000D5DB5 /* WhatShallWeWatchTests */ = {
@@ -375,7 +379,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF9E068F14E9B115000D5DB5 /* WhatShallWeWatch */,
+				AF9E068F14E9B115000D5DB5 /* WSWW */,
 				AF9E06B014E9B115000D5DB5 /* WhatShallWeWatchTests */,
 			);
 		};
@@ -393,12 +397,10 @@
 				AF9B6DD315080B2D003B7B9F /* WhatShallWeWatch-Small-50.png in Resources */,
 				AF9B6DD415080B2D003B7B9F /* WhatShallWeWatch-Small.png in Resources */,
 				AF9B6DD515080B2D003B7B9F /* WhatShallWeWatch-Small@2x.png in Resources */,
-				AF9B6DD615080B2D003B7B9F /* WhatShallWeWatch.png in Resources */,
-				AF9B6DD715080B2D003B7B9F /* WhatShallWeWatch@2x.png in Resources */,
-				AF9B6DD915080B55003B7B9F /* WhatShallWeWatch@2x.png in Resources */,
-				AF9B6DDB15080B5D003B7B9F /* WhatShallWeWatch.png in Resources */,
 				AF9B6DE21508186B003B7B9F /* README.txt in Resources */,
 				AF9B6DE31508186B003B7B9F /* release_notes.txt in Resources */,
+				AF437C90150B89D7008B5159 /* WhatShallWeWatch@2x.png in Resources */,
+				AF437C92150B8A38008B5159 /* WhatShallWeWatch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +452,7 @@
 				AFC778701505671C00BE76F8 /* AFURLConnectionOperation.m in Sources */,
 				AFC778711505671C00BE76F8 /* AFXMLRequestOperation.m in Sources */,
 				AFC778721505671C00BE76F8 /* UIImageView+AFNetworking.m in Sources */,
+				AF93A082150827EF00932775 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF9E06C014E9B115000D5DB5 /* WhatShallWeWatchTests.m in Sources */,
+				AF93A07C1508258200932775 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +470,7 @@
 /* Begin PBXTargetDependency section */
 		AF9E06B714E9B115000D5DB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF9E068F14E9B115000D5DB5 /* WhatShallWeWatch */;
+			target = AF9E068F14E9B115000D5DB5 /* WSWW */;
 			targetProxy = AF9E06B614E9B115000D5DB5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -690,7 +694,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF9E06C314E9B115000D5DB5 /* Build configuration list for PBXNativeTarget "WhatShallWeWatch" */ = {
+		AF9E06C314E9B115000D5DB5 /* Build configuration list for PBXNativeTarget "WSWW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF9E06C414E9B115000D5DB5 /* Debug */,

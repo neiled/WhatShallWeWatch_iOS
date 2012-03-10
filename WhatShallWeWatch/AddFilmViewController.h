@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "AddFilmProtocol.h"
+#import "MBProgressHUD.h"
+
 
 @interface AddFilmViewController : UITableViewController  <UISearchDisplayDelegate, UITableViewDataSource, UITableViewDelegate>
+{
+	MBProgressHUD *HUD;
+}
 @property (strong, nonatomic) IBOutlet UISearchDisplayController *searchDisplayController;
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @property (weak, nonatomic) id<AddFilm> addFilmDelegate;
