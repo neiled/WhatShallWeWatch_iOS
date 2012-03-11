@@ -8,6 +8,7 @@
 
 #import "WSWWViewController.h"
 #import "AddFilmViewController.h"
+#import "AddFilmTableViewCell.h"
 
 @implementation WSWWViewController
 
@@ -45,13 +46,16 @@
 {
 	static NSString *CellIdentifier = @"Chosen Film";
 	
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	AddFilmTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 	if (cell == nil)
-		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+		cell = [[AddFilmTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     
     Film* foundFilm = [self.allItems objectAtIndex:indexPath.row];
-    cell.textLabel.text = foundFilm.filmName;
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%d",foundFilm.rating];
+//    cell.textLabel.text = foundFilm.filmName;
+//    cell.detailTextLabel.text = [NSString stringWithFormat:@"%d",foundFilm.rating];
+    cell.filmTitleLabel.text = foundFilm.filmName;
+    cell.yearLabel.text = foundFilm.filmYear;
+    cell.ratingLabel.text = [NSString stringWithFormat:@"%d",foundFilm.rating];    
     
     
 	return cell;
@@ -74,6 +78,7 @@
     {
         AddFilmViewController *detailViewController = [segue destinationViewController];
         detailViewController.addFilmDelegate = self;
+        
     }
 }
 

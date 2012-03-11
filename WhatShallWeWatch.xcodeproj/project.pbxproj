@@ -42,6 +42,7 @@
 		AF9E06ED14E9C14D000D5DB5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06EC14E9C14D000D5DB5 /* Security.framework */; };
 		AF9E06EF14E9C154000D5DB5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06EE14E9C154000D5DB5 /* SystemConfiguration.framework */; };
 		AF9E06F114E9C161000D5DB5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9E06F014E9C161000D5DB5 /* libxml2.dylib */; };
+		AFBD86F2150D012E00521CE7 /* icons-v2_03.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBD86F1150D012E00521CE7 /* icons-v2_03.png */; };
 		AFC778691505671C00BE76F8 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC778551505671C00BE76F8 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AFC7786A1505671C00BE76F8 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC778571505671C00BE76F8 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AFC7786B1505671C00BE76F8 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC778591505671C00BE76F8 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -114,6 +115,7 @@
 		AF9E06EC14E9C14D000D5DB5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AF9E06EE14E9C154000D5DB5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AF9E06F014E9C161000D5DB5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		AFBD86F1150D012E00521CE7 /* icons-v2_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons-v2_03.png"; path = "Media/Raw/images/icons-v2_03.png"; sourceTree = SOURCE_ROOT; };
 		AFC778541505671C00BE76F8 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		AFC778551505671C00BE76F8 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		AFC778561505671C00BE76F8 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 		AF9E069B14E9B115000D5DB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AFBD86F1150D012E00521CE7 /* icons-v2_03.png */,
 				AF9B6DCC15080B2D003B7B9F /* WhatShallWeWatch-72.png */,
 				AF9B6DCD15080B2D003B7B9F /* WhatShallWeWatch-Small-50.png */,
 				AF9B6DCE15080B2D003B7B9F /* WhatShallWeWatch-Small.png */,
@@ -327,6 +330,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF9E06C314E9B115000D5DB5 /* Build configuration list for PBXNativeTarget "WSWW" */;
 			buildPhases = (
+				AFBD86F0150BAA0E00521CE7 /* ShellScript */,
 				AF9E068C14E9B115000D5DB5 /* Sources */,
 				AF9E068D14E9B115000D5DB5 /* Frameworks */,
 				AF9E068E14E9B115000D5DB5 /* Resources */,
@@ -401,6 +405,7 @@
 				AF9B6DE31508186B003B7B9F /* release_notes.txt in Resources */,
 				AF437C90150B89D7008B5159 /* WhatShallWeWatch@2x.png in Resources */,
 				AF437C92150B8A38008B5159 /* WhatShallWeWatch.png in Resources */,
+				AFBD86F2150D012E00521CE7 /* icons-v2_03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +432,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		AFBD86F0150BAA0E00521CE7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "git=`sh /etc/profile; which git`\nversion=`$git describe --tags --always`\ncount=`$git rev-list --all |wc -l`\necho -e \"#define GIT_VERSION $version\\n#define GIT_COMMIT_COUNT $count\" > InfoPlist.h";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -532,6 +550,8 @@
 				GCC_PREFIX_HEADER = "WhatShallWeWatch/WhatShallWeWatch-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build\"";
 				INFOPLIST_FILE = "WhatShallWeWatch/WhatShallWeWatch-Info.plist";
+				INFOPLIST_PREFIX_HEADER = InfoPlist.h;
+				INFOPLIST_PREPROCESS = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
@@ -614,6 +634,8 @@
 				GCC_PREFIX_HEADER = "WhatShallWeWatch/WhatShallWeWatch-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build\"";
 				INFOPLIST_FILE = "WhatShallWeWatch/WhatShallWeWatch-Info.plist";
+				INFOPLIST_PREFIX_HEADER = InfoPlist.h;
+				INFOPLIST_PREPROCESS = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
@@ -634,6 +656,8 @@
 				GCC_PREFIX_HEADER = "WhatShallWeWatch/WhatShallWeWatch-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/RestKit/Build\"";
 				INFOPLIST_FILE = "WhatShallWeWatch/WhatShallWeWatch-Info.plist";
+				INFOPLIST_PREFIX_HEADER = InfoPlist.h;
+				INFOPLIST_PREPROCESS = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
